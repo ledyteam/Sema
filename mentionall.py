@@ -312,7 +312,7 @@ stag = (
 "Səbrsiz birinə, səbrlə yolunu go‌zləməyi o‌yrədən ən go‌zəl hisdir sevgi..🤍",
 "Sevgi insanı həyata bağlar, Həyat isə insanı sevgiyə bağlar..🤍🥂",
 "Bir sen varsın, birde seninle kurulan hayeller..❤️",
-"Ne gözəl sözdür:😍🌸 Səni Allahdan qorxduğum" qədər sevirəm.❤️🥂",
+"Ne gözəl sözdür:😍🌸 Səni Allahdan qorxduğum qədər sevirəm.❤️🥂",
 "Sənsiz qalaraq,təkliyə vurğunam...🥺)",
 "Sevgilim,bu axşam dərdinlə sərxoşam🥂🌚",
 "Mini gəlsə nə fərq edər,mən birini go‌rdu‌kdən sonra..♥️😍",
