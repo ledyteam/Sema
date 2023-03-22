@@ -301,7 +301,7 @@ async def cancel(event):
 	
 
 stag = (
-"•ʜəʀʏᴇɴɪ ɢüɴ ɢöᴢəʟᴅɪʀ..Çüɴᴋɪ ɪçɪɴᴅə "sƏɴ"ᴠᴀʀsᴀɴ.❤️",
+"•ʜəʀʏᴇɴɪ ɢüɴ ɢöᴢəʟᴅɪʀ..Çüɴᴋɪ ɪçɪɴᴅə sƏɴ ᴠᴀʀsᴀɴ.❤️",
 "Sevgisinideyən birini yox, go‌stərənbirini sevin..🤍🖇️",
 "Sevgi ilə olanda hərşey çox gözəl görünür🤍😍",
 "Hər s‌ᥱყə rəg‌məᥒ sᥱvdiყim iᥣk və soᥒ iᥒsᥲᥒsᥲᥒ.❤️",
@@ -315,8 +315,8 @@ stag = (
 "Ne gözəl sözdür:😍🌸 Səni Allahdan qorxduğum qədər sevirəm.❤️🥂",
 "Sənsiz qalaraq,təkliyə vurğunam...🥺)",
 "Sevgilim,bu axşam dərdinlə sərxoşam🥂🌚",
-"Mini gəlsə nə fərq edər,mən birini go‌rdu‌kdən sonra..♥️😍",
-"Həyat çətindir,amma ən azından yanımda sən varsan 🫂♥️",
+"Mini gəlsə nə fərq edər, mən birini go‌rdu‌kdən sonra..♥️😍",
+"Həyat çətindir, amma ən azından yanımda sən varsan 🫂♥️",
 "Sevgi insanı həyata bağlar, Həyat isə insanı sevgiyə bağlar..🤍🥂",
 "Yaxşı dost qızıl kimidi! Torpağa qarışar ama paslamaz🖤🫂",
 "Əsl dost misilsiz xəzinədir. Xoşbəxtliyi artırar,dərd qəmi azaldar.❤️",
