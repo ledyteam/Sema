@@ -4,13 +4,13 @@ import os
 class Config():
     # Bu dəyərləri my.telegram.org saytından əldə edin
     #>>> https://my.telegram.org
-    API_ID = int(os.environ.get("API_ID","16157584"))
-    API_HASH = os.environ.get("API_HASH","2167d4e6007a79eed91d084bf5b8966a")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN","5337183930:")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME","dejavy")
-    BOT_NAME = os.environ.get("BOT_NAME","jhkoijl")
-    BOT_ID = int(os.environ.get("BOT_ID","234567890-"))
-    SUDO_USERS = os.environ.get("SUDO_USERS","rseyutiydou").split()
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT","ioj")
-    OWNER_ID = int(os.environ.get("OWNER_ID","43567890"))
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME","uijio;kl,")
+    API_ID = int(os.environ.get("API_ID","18052289"))
+    API_HASH = os.environ.get("API_HASH","552525f45a3066fee54ca7852235c19c")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN","6118669969:AAGjoIPBVUwtqDB-Z5yBF9rDLYEAS_ax2ek")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME","Sematagbot")
+    BOT_NAME = os.environ.get("BOT_NAME","𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥")
+    BOT_ID = int(os.environ.get("BOT_ID","6118669969"))
+    SUDO_USERS = os.environ.get("SUDO_USERS","1924693109", "6206042625").split()
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT","SOQrup")
+    OWNER_ID = int(os.environ.get("OWNER_ID","1924693109"))
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME","Tenha055")
