@@ -4,8 +4,6 @@ import pyrogram
 from Config import Config
 from datetime import datetime
 from telethon import Button
-import time
-import datatime
 from pyrogram import Client, filters, idle
 import pyrogram
 from pyrogram import Client, filters
@@ -28,7 +26,7 @@ from pyrogram.errors import PeerIdInvalid
 from pyrogram.types import Message, User
 from pyrogram.types.messages_and_media import Message
 from pyrogram import Client, filters
-import time
+from time import time
 
 app = Client(
     "User Tag Bot",
