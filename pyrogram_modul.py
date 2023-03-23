@@ -69,7 +69,7 @@ async def pingy(client, message):
 
 #-------------------------------------------------------------OWNERS SALAMLAMA MSJ---------------------------------------------------------------------------------------#
         elif str(new_user.id) == str(Config.OWNER_ID):
-            await msg.reply('🤖 [𓆩𓄂𝙰𝚂𝚀🇦🇿 𝑇𝑎𝑔𝑔𝑒𝑟 𝘉𝘰𝘵](https://t.me/UstaTagbot)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
+            await msg.reply('[𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](https://t.me/Sematagbot)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
