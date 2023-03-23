@@ -6,3 +6,6 @@ tgcrypto
 ujson
 aiohttp
 aiofiles
+motor
+psutil
+aiogram
