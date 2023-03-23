@@ -8,6 +8,9 @@ from Config import Config
 from datetime import datetime
 import datetime
 import time
+from pyrogram import Client, filters, idle
+import pyrogram
+from pyrogram import Client, filters
 import aiofiles
 import traceback
 import shutil, psutil, traceback, os
