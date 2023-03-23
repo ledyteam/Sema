@@ -621,28 +621,6 @@ sema = ('az hardasan 😁','papatyam 🌼','Gülüm 🌹','Balaşkam 😍','Aşk
 
 
 
-@app.on_message(filters.command("id", "info"))
-async def _id(_, message: Message):
-    msg = message.reply_to_message or message
-    out_str = "**𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥 user data İnfo:**\n"
-    out_str += f" 🌐 __Qrup ID__ : `{(msg.forward_from_chat or msg.chat).id}`\n"
-    out_str += f" 👤 __Kullanıcı Adı__ : {msg.from_user.first_name}\n"
-    out_str += f" 💬 __Mesaj ID__ : `{msg.forward_from_message_id}`\n"
-    if msg.from_user:
-        out_str += f" 🆔 __Kullanıcı ID__ : `{msg.from_user.id}`\n"
- 
-    await message.reply(out_str)
-
-
-@app.on_message(filters.command("ping"))
-async def pingy(client, message):
-    start = datetime.now()
-    hmm = await message.reply("⚡ Pong!")
-    end = datetime.now()
-    ms = (end - start).microseconds / 1000
-    await hmm.edit(
-        f"█▀█ █▀█ █▄░█ █▀▀ █ \n█▀▀ █▄█ █░▀█ █▄█ ▄\n**Ping: {round(ms)}**")
-
 
 
 
