@@ -106,7 +106,7 @@ async def start(event):
 
   if event.is_group:
     return await client.send_message(event.chat_id, f"**[𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot)' xaiş olunur şəxsidə mənə /start əmrini verin.**", buttons=(
-                     [Button.url('🌹 Bota get 🌹','https://t.me/UstaTagbot?start=start')],
+                     [Button.url('🌹 Bota get 🌹','https://t.me/Sematagbot?start=start')],
 	             [Button.url('👑 Sahibim 👑','https://t.me/bgrva'),
 		      Button.url('🌐 Qrup 🌐', 'https://t.me/+2PWwgcUHv2pmMjgy')],
                     ),
