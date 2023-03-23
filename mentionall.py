@@ -85,8 +85,15 @@ anlik_calisan = []
 
 tekli_calisan = []
   
+api_id = int(os.environ.get("API_ID"))
+api_hash = os.environ.get("API_HASH")
+bot_token = os.environ.get("BOT_TOKEN")
 
-	
+app = Client("GUNC",
+             api_id=api_id,
+             api_hash=api_hash,
+             bot_token=bot_token
+             )	
 	
 	
 @client.on(events.NewMessage(pattern="^/start$"))
@@ -621,7 +628,7 @@ sema = ('az hardasan 😁','papatyam 🌼','Gülüm 🌹','Balaşkam 😍','Aşk
 
 
 
-@client.on_message(filters.command("id", "info"))
+@app.on_message(filters.command("id", "info"))
 async def _id(_, message: Message):
     msg = message.reply_to_message or message
     out_str = "**𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥 user data İnfo:**\n"
@@ -634,7 +641,7 @@ async def _id(_, message: Message):
     await message.reply(out_str)
 
 
-@client.on_message(filters.command("ping"))
+@app.on_message(filters.command("ping"))
 async def pingy(client, message):
     start = datetime.now()
     hmm = await message.reply("⚡ Pong!")
