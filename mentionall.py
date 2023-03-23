@@ -12,6 +12,12 @@ import aiofiles
 import traceback
 import shutil, psutil, traceback, os
 import string
+import pyrogram
+from pyrogram import Client, filters
+from pyrogram.types.messages_and_media import Message
+from pyrogram.types import Message, User
+from telethon import TelegramClient, events
+from pyrogram.types import Message
 
 
 logging.basicConfig(
