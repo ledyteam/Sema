@@ -29,7 +29,7 @@
     },
     "SUDO_USERS": {
       "description": "Botun sahibini daxil edin.",
-      "value": "6206042625"
+      "value": "1924693109"
     },
     "SUPPORT_CHAT": {
       "description": "Botun dəstək qrupuna daxil olun.",
@@ -37,7 +37,7 @@
     },
     "OWNER_ID": {
       "description": "SAHİBİ olarak eklemek istediğiniz kullanıcı(lar)ın kullanıcı kimlikleri. Çoklu değerler bir boşluk ile ayrılmalıdır.",
-      "value": "1924693109"
+      "value": "6206042625 1924693109"
     },
     "OWNER_USERNAME": {
       "description": "Botun sahibinin ünvanını daxil edin.",
