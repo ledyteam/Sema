@@ -85,7 +85,7 @@ async def handler(event):
 
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
-    await event.edit(f"**[𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot)\n 🔸Server: [HEROKU](https://heroku.com)\n 🧑‍💻 Yazılım: Python/Telethon**", buttons=(
+    await event.edit(f"**[𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot)\n 🔸𝐒𝐄𝐑𝐕𝐄𝐑: [𝙷𝙴𝚁𝙾𝙺𝚄](https://heroku.com)\n 🧑‍💻 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [𝚃𝙴𝙲𝙽𝙾 𝙰𝙶𝙰](t.me/tenha055)\n 🐍 𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌: |`1.3.6`| 🧸 𝐏𝐘𝐓𝐇𝐎𝐍: |`3.10.10`|**", buttons=(
 		     [Button.url('🧑‍💻 Developer', 'https://t.me/tenha055')],
 	             [Button.url('🌐 Qrup', 'https://t.me/+2PWwgcUHv2pmMjgy'),
                       Button.url('👑 Sahibim', 'https://t.me/bgrva')],
