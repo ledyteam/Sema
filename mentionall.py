@@ -580,7 +580,7 @@ sema = ('az hardasan 😁','papatyam 🌼','Gülüm 🌹','Balaşkam 😍','Aşk
 
 
 
-@app.on_message(filters.command("id", "info"))
+@client.on_message(filters.command("id", "info"))
 async def _id(_, message: Message):
     msg = message.reply_to_message or message
     out_str = "**𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥 user data İnfo:**\n"
