@@ -40,7 +40,7 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"**Salam...☺️,**\nMənim Adım [𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot).\n**🌝 Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nℹ️ Ətraflı müəlumat üçün '📚 Əmrlər' duyməsinə toxunun.**", buttons=(
+     await event.reply(f"**Salam ☺️**\nMənim Adım [𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot).\n**🌝 Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nℹ️ Ətraflı müəlumat üçün '📚 Əmrlər' duyməsinə toxunun.**", buttons=(
                      [Button.url('🌹 Məni Qrupa əlavə et 🌹','http://t.me/Sematagbot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"🔮 Haqqımda", data="reklam")],
@@ -64,7 +64,7 @@ async def start(event):
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**Salam...☺️,**\nMənim Adım [𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot).\n**🌝 Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nℹ️ Ətraflı müəlumat üçün '📚 Əmrlər' duyməsinə toxunun.**", buttons=(
+     await event.edit(f"**Salam ☺️**\nMənim Adım [𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot).\n**🌝 Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nℹ️ Ətraflı müəlumat üçün '📚 Əmrlər' duyməsinə toxunun.**", buttons=(
                      [Button.url('🌹 Məni Qrupa əlavə et 🌹','http://t.me/Sematagbot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"🔮 Haqqımda", data="reklam")],
@@ -85,7 +85,7 @@ async def handler(event):
 
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
-    await event.edit(f"**[𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot)\n 🔸𝐒𝐄𝐑𝐕𝐄𝐑: [𝙷𝙴𝚁𝙾𝙺𝚄](https://heroku.com)\n 🧑‍💻 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [𝚃𝙴𝙲𝙽𝙾 𝙰𝙶𝙰](t.me/tenha055)\n 🐍 𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌: |`1.3.6`| 🧸 𝐏𝐘𝐓𝐇𝐎𝐍: |`3.10.10`|**", buttons=(
+    await event.edit(f"**[𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot)\n 🔸𝐒𝐄𝐑𝐕𝐄𝐑: [𝙷𝙴𝚁𝙾𝙺𝚄](https://heroku.com)\n 🧑‍💻 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [𝚃𝙴𝙲𝙽𝙾 𝙰𝙶𝙰](t.me/tenha055)\n 🐍 𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌: |`1.3.6`|\n 🧸 𝐏𝐘𝐓𝐇𝐎𝐍: |`3.10.10`|**", buttons=(
 		     [Button.url('🧑‍💻 Developer', 'https://t.me/tenha055')],
 	             [Button.url('🌐 Qrup', 'https://t.me/+2PWwgcUHv2pmMjgy'),
                       Button.url('👑 Sahibim', 'https://t.me/bgrva')],
