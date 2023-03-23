@@ -43,7 +43,7 @@ async def hg(bot: Client, msg: Message):
             await msg.reply(
                 f'''`Salam` {msg.from_user.mention} `Məni` {msg.chat.title} `Qrupa əlavə etdiyiniz üçün təşəkkürlər😌` \n\n **Qruplardakı userləri tag Edmək üçün Yaradıldım.\nKömək üçün /start yazmaq kifayətdir.😍**''')
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
-@client.on_message(filters.new_chat_members("id", "info"))
+@app.on_message(filters.new_chat_members("id", "info"))
 async def _id(_, message: Message):
     msg = message.reply_to_message or message
     out_str = "**𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥 user data İnfo:**\n"
@@ -56,7 +56,7 @@ async def _id(_, message: Message):
     await message.reply(out_str)
 
 
-@client.on_message(filters.new_chat_members("ping"))
+@app.on_message(filters.new_chat_members("ping"))
 async def pingy(client, message):
     start = datetime.now()
     hmm = await message.reply("⚡ Pong!")
