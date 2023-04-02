@@ -1,11 +1,11 @@
 {
-  "name": "𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥",
-  "logo":"https://te.legra.ph/file/46d967d7f0ea366f7f6f3.jpg",
+  "name": "𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓"",
+  "logo":"https://te.legra.ph/file/46d967d7f6155487967:AAGhW4pmIwOrIIPffTHrHTQuullToag1PuU0ea366f7f6f3.jpg",
   "description": "İstifadəçi tagger botu pulsuz üzvlərinizi etiketləyən bir botdur.",
   "env": {
     "BOT_TOKEN": {
       "description": "Botfather-dən Bot nişanı.",
-      "value": "6118669969:AAGjoIPBVUwtqDB-Z5yBF9rDLYEAS_ax2ek"
+      "value": "6155487967:AAGhW4pmIwOrIIPffTHrHTQuullToag1PuU"
     },
     "API_ID": {
       "description": "Bu dəyəri https://my.telegram.org saytından əldə edin.",
@@ -17,19 +17,19 @@
     },
     "BOT_NAME": {
       "description": "User Tag Botunuz üçün ad. Zəhmət olmasa ascii simvollarından istifadə etməyin.",
-      "value": "𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥"
+      "value": "𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓"
     },
     "BOT_USERNAME": {
       "description": "Botun ünvanını daxil edin.",
-      "value": "Sematagbot"
+      "value": "Regionstag_bot"
     },
     "BOT_ID": {
       "description": "Botun id-sini daxil edin.",
-      "value": "6118669969"
+      "value": "6155487967"
     },
     "SUDO_USERS": {
       "description": "Botun sahibini daxil edin.",
-      "value": "1924693109"
+      "value": "5804797964"
     },
     "SUPPORT_CHAT": {
       "description": "Botun dəstək qrupuna daxil olun.",
@@ -37,11 +37,11 @@
     },
     "OWNER_ID": {
       "description": "SAHİBİ olarak eklemek istediğiniz kullanıcı(lar)ın kullanıcı kimlikleri. Çoklu değerler bir boşluk ile ayrılmalıdır.",
-      "value": "6206042625 1924693109"
+      "value": "1924693109"
     },
     "OWNER_USERNAME": {
       "description": "Botun sahibinin ünvanını daxil edin.",
-      "value": "Tenha055"
+      "value": "seyidov_QZ"
     }
   },
   "buildpacks": [{
