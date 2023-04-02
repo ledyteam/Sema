@@ -94,20 +94,20 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"**Salam ☺️**\nMənim Adım [𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot).\n**🌝 Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nℹ️ Ətraflı müəlumat üçün '📚 Əmrlər' duyməsinə toxunun.**", buttons=(
-                     [Button.url('🌹 Məni Qrupa əlavə et 🌹','http://t.me/Sematagbot?startgroup=a')],
+     await event.reply(f"**Salam 🤍**\nMənim Adım [𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓](http://t.me/Regionstag_bot).\n**👤 Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nℹ️ Ətraflı müəlumat üçün 📚 Əmrlər duyməsinə toxunun.**", buttons=(
+                     [Button.url('🌹 Məni Qrupa əlavə et 🌹','http://t.me/Regionstag_bot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
-	              Button.inline(f"🔮 Haqqımda", data="reklam")],
-	             [Button.url('🌐 Qrup', 'https://t.me/+2PWwgcUHv2pmMjgy'),
-                      Button.url('👑 Sahibim', 'https://t.me/bgrva')],
+	              Button.inline(f"🔐 Haqqımda", data="reklam")],
+	             [Button.url('🌐 Qrupum', 'https://t.me/+2PWwgcUHv2pmMjgy'),
+                      Button.url('👑 Sahibim', 'https://t.me/seyidov_QZ')],
                     ),
                     link_preview=False)
 
 
   if event.is_group:
-    return await client.send_message(event.chat_id, f"**[𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot)' xaiş olunur şəxsidə mənə /start əmrini verin.**", buttons=(
+    return await client.send_message(event.chat_id, f"**[𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓](http://t.me/Regionstag_bot)' xaiş olunur şəxsidə mənə /start əmrini verin.**", buttons=(
                      [Button.url('🌹 Bota get 🌹','https://t.me/Sematagbot?start=start')],
-	             [Button.url('👑 Sahibim 👑','https://t.me/bgrva'),
+	             [Button.url('👑 Sahibim 👑','https://t.me/seyidov_QZ'),
 		      Button.url('🌐 Qrup 🌐', 'https://t.me/+2PWwgcUHv2pmMjgy')],
                     ),
                     link_preview=False)
@@ -118,31 +118,31 @@ async def start(event):
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**Salam ☺️**\nMənim Adım [𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot).\n**🌝 Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nℹ️ Ətraflı müəlumat üçün '📚 Əmrlər' duyməsinə toxunun.**", buttons=(
+     await event.edit(f"**Salam 🤍**\nMənim Adım [𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓](http://t.me/Regionstag_bot).\n**👤 Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nℹ️ Ətraflı müəlumat üçün 📚 Əmrlər duyməsinə toxunun.**", buttons=(
                      [Button.url('🌹 Məni Qrupa əlavə et 🌹','http://t.me/Sematagbot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
-	              Button.inline(f"🔮 Haqqımda", data="reklam")],
-	             [Button.url('🌐 Qrup', 'https://t.me/+2PWwgcUHv2pmMjgy'),
-                      Button.url('👑 Sahibim', 'https://t.me/bgrva')],
+	              Button.inline(f"🔐 Haqqımda", data="reklam")],
+	             [Button.url('🌐 Qrupum', 'https://t.me/+2PWwgcUHv2pmMjgy'),
+                      Button.url('👑 Sahibim', 'https://t.me/seyidov_QZ')],
                     ),
                     link_preview=False)
 
 
 @client.on(events.callbackquery.CallbackQuery(data="help"))
 async def handler(event):	
-    await event.edit(f"**[𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot)-un '📚 Əmrlər'  Menyusu:⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**➪ /tag <səbəb> - 5-li tağ edər.**\n**➪ /etag <səbəb> - Emojilər ilə tağ edər.**\n**➪ /stag <səbəb> - Dvij sözlərlə tağ edər.**\n**➪ /tektag <səbəb> - Tək-Tək tağ edər.**\n**➪ /sema <səbəb> -  Özəl tağ edər.**\n**➪ /admins <səbəb> - Admin heyətini Tək-Tək tağ edər.**\n**➪ /cancel - Tağ prosesini Dayandırar.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
+    await event.edit(f"**[𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓](http://t.me/Regionstag_bot)-un 📚 Əmrlər  Menyusu:⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**➪ /tag <səbəb> - 5-li tağ edər.**\n**➪ /etag <səbəb> - Emojilər ilə tağ edər.**\n**➪ /stag <səbəb> - Dvij sözlərlə tağ edər.**\n**➪ /tektag <səbəb> - Tək-Tək tağ edər.**\n**➪ /region <səbəb> -  Özəl tağ edər.**\n**➪ /admins <səbəb> - Admin heyətini Tək-Tək tağ edər.**\n**➪ /cancel - Tağ prosesini Dayandırar.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
 	             [Button.url('🌐 Qrup', 'https://t.me/+2PWwgcUHv2pmMjgy'),
-                      Button.url('👑 Sahibim', 'https://t.me/bgrva')],
+                      Button.url('👑 Sahibim', 'https://t.me/seyidov_QZ')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
 
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
-    await event.edit(f"**[𝗦Σ𝗠Δ 𝗧Δ𝗚𝗚Σ𝗥](http://t.me/Sematagbot)\n 🔸𝐒𝐄𝐑𝐕𝐄𝐑: [𝙷𝙴𝚁𝙾𝙺𝚄](https://heroku.com)\n 🧑‍💻 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [𝚃𝙴𝙲𝙽𝙾 𝙰𝙶𝙰](t.me/tenha055)\n 🐍 𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌: |`1.3.6`|\n 🧸 𝐏𝐘𝐓𝐇𝐎𝐍: |`3.10.10`|**", buttons=(
+    await event.edit(f"**[𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓](http://t.me/Regionstag_bot)\n 🔶 𝐒𝐄𝐑𝐕𝐄𝐑: [𝙷𝙴𝚁𝙾𝙺𝚄](https://heroku.com)\n 🧑‍💻 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [𝚃𝙴𝙲𝙽𝙾 𝙰𝙶𝙰](t.me/tenha055)\n 🐍 𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌: |`1.3.6`|\n 🧸 𝐏𝐘𝐓𝐇𝐎𝐍: |`3.10.10`|**", buttons=(
 		     [Button.url('🧑‍💻 Developer', 'https://t.me/tenha055')],
 	             [Button.url('🌐 Qrup', 'https://t.me/+2PWwgcUHv2pmMjgy'),
-                      Button.url('👑 Sahibim', 'https://t.me/bgrva')],
+                      Button.url('👑 Sahibim', 'https://t.me/seyidov_QZ')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
@@ -556,7 +556,7 @@ async def cancel(event):
   tekli_calisan.remove(event.chat_id)
 
 	
-@client.on(events.NewMessage(pattern="^/sema ?(.*)"))
+@client.on(events.NewMessage(pattern="^/region ?(.*)"))
 
 async def mentionall(event):
 
@@ -630,12 +630,12 @@ async def handler(event):
     # Kimsə "Salam" və başqa bir şey deyəndə cavab verin
     if str(event.sender_id) not in SUDO_USERS:
         return await event.reply("__Sən mənə sahib deyilsən!__")
-    await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/Tenha055 \n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
+    await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/seyidov_QZ \n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
 		     buttons=(
-	             [Button.url('AGA','https://t.me/tenha055'),
-	             Button.url('SƏMA','https://t.me/bgrva')],
+	             [Button.url('DEVELOPER','https://t.me/tenha055'),
+	             Button.url('SAHİB','https://t.me/seyidov_QZ')],
                     ),
                     link_preview=False)
 
-print(">> Bot işləyir narahat olma @tenha055 ə yaza bilərsən<<")
+print(">> Bot işləyir narahat olma @tenha055<<")
 client.run_until_disconnected()
