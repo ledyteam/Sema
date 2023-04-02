@@ -98,7 +98,7 @@ async def start(event):
                      [Button.url('🌹 Məni Qrupa əlavə et 🌹','http://t.me/Regionstag_bot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"🔐 Haqqımda", data="reklam")],
-	             [Button.url('🌐 Qrupum', 'https://t.me/+2PWwgcUHv2pmMjgy'),
+	             [Button.url('🌐 Qrupum', 'https://t.me/SohbetRegion1'),
                       Button.url('👑 Sahibim', 'https://t.me/seyidov_QZ')],
                     ),
                     link_preview=False)
@@ -106,9 +106,9 @@ async def start(event):
 
   if event.is_group:
     return await client.send_message(event.chat_id, f"**[𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓](http://t.me/Regionstag_bot)' xaiş olunur şəxsidə mənə /start əmrini verin.**", buttons=(
-                     [Button.url('🌹 Bota get 🌹','https://t.me/Sematagbot?start=start')],
+                     [Button.url('🌹 Bota get 🌹','https://t.me/Regionstag_bot?start=start')],
 	             [Button.url('👑 Sahibim 👑','https://t.me/seyidov_QZ'),
-		      Button.url('🌐 Qrup 🌐', 'https://t.me/+2PWwgcUHv2pmMjgy')],
+		      Button.url('🌐 Qrup 🌐', 'https://t.me/SohbetRegion1')],
                     ),
                     link_preview=False)
 
@@ -122,7 +122,7 @@ async def handler(event):
                      [Button.url('🌹 Məni Qrupa əlavə et 🌹','http://t.me/Sematagbot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"🔐 Haqqımda", data="reklam")],
-	             [Button.url('🌐 Qrupum', 'https://t.me/+2PWwgcUHv2pmMjgy'),
+	             [Button.url('🌐 Qrupum', 'https://t.me/SohbetRegion1'),
                       Button.url('👑 Sahibim', 'https://t.me/seyidov_QZ')],
                     ),
                     link_preview=False)
@@ -131,7 +131,7 @@ async def handler(event):
 @client.on(events.callbackquery.CallbackQuery(data="help"))
 async def handler(event):	
     await event.edit(f"**[𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓](http://t.me/Regionstag_bot)-un 📚 Əmrlər  Menyusu:⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**➪ /tag <səbəb> - 5-li tağ edər.**\n**➪ /etag <səbəb> - Emojilər ilə tağ edər.**\n**➪ /stag <səbəb> - Dvij sözlərlə tağ edər.**\n**➪ /tektag <səbəb> - Tək-Tək tağ edər.**\n**➪ /region <səbəb> -  Özəl tağ edər.**\n**➪ /admins <səbəb> - Admin heyətini Tək-Tək tağ edər.**\n**➪ /cancel - Tağ prosesini Dayandırar.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
-	             [Button.url('🌐 Qrup', 'https://t.me/+2PWwgcUHv2pmMjgy'),
+	             [Button.url('🌐 Qrup', 'https://t.me/SohbetRegion1'),
                       Button.url('👑 Sahibim', 'https://t.me/seyidov_QZ')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
@@ -141,7 +141,7 @@ async def handler(event):
 async def handler(event):	
     await event.edit(f"**[𝐑𝐄𝐆𝐈𝐎𝐍 𝐁𝐎𝐓](http://t.me/Regionstag_bot)\n 🔶 𝐒𝐄𝐑𝐕𝐄𝐑: [𝙷𝙴𝚁𝙾𝙺𝚄](https://heroku.com)\n 🧑‍💻 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : [𝚃𝙴𝙲𝙽𝙾 𝙰𝙶𝙰](t.me/tenha055)\n 🐍 𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌: |`1.3.6`|\n 🧸 𝐏𝐘𝐓𝐇𝐎𝐍: |`3.10.10`|**", buttons=(
 		     [Button.url('🧑‍💻 Developer', 'https://t.me/tenha055')],
-	             [Button.url('🌐 Qrup', 'https://t.me/+2PWwgcUHv2pmMjgy'),
+	             [Button.url('🌐 Qrup', 'https://t.me/SohbetRegion1'),
                       Button.url('👑 Sahibim', 'https://t.me/seyidov_QZ')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
