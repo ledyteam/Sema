@@ -15,6 +15,7 @@ RUN apt-get -qq install -y \
 
 
 #>>> Quraşdırma tələbləri
+RUN -m pip install --upgrade pip
 RUN pip3 install -U -r requirements.txt
 
 RUN chmod a+x start
