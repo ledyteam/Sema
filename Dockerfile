@@ -16,8 +16,8 @@ RUN apt-get -qq install -y \
 
 #>>> Quraşdırma tələbləri
 RUN pip install --upgrade pip
-RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 RUN pip3 install --no-cache-dir -U -r requirements.txt
+RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 
 RUN chmod a+x start
 CMD ["./start"]
