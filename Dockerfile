@@ -1,4 +1,4 @@
-FROM python:3.9.6-buster
+FROM python:3.10.10-buster
 
 #>>> http://bugs.python.org/issue19846
 ENV LANG C.UTF-8
